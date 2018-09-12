@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EE65C2C82149638500E8B9A9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65C2C72149638500E8B9A9 /* main.swift */; };
+		EE65C2CF214967F800E8B9A9 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65C2CE214967F800E8B9A9 /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		EE65C2C42149638500E8B9A9 /* Task Manager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Task Manager"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE65C2C72149638500E8B9A9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EE65C2CE214967F800E8B9A9 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		EE65C2D021496B3200E8B9A9 /* Notes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Notes.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				EE65C2C72149638500E8B9A9 /* main.swift */,
+				EE65C2CE214967F800E8B9A9 /* Menu.swift */,
+				EE65C2D021496B3200E8B9A9 /* Notes.rtf */,
 			);
 			path = "Task Manager";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE65C2CF214967F800E8B9A9 /* Menu.swift in Sources */,
 				EE65C2C82149638500E8B9A9 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
