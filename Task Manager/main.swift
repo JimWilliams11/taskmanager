@@ -9,9 +9,9 @@
 import Foundation
 
 
-
-print("Welcome to your To-Do App!\n")
-let menu = Menu()
+print("The Grand To-do Manager!\n")
+print("Make a secletion from below to begin")
+let menu = Menu()  // "Menu", when initialized with "menu.go", will connect to the code on the Menu page
 menu.go()
 
 

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		EE65C2C82149638500E8B9A9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65C2C72149638500E8B9A9 /* main.swift */; };
 		EE65C2CF214967F800E8B9A9 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65C2CE214967F800E8B9A9 /* Menu.swift */; };
+		EEF4BCEA215416B8005E92E0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4BCE9215416B8005E92E0 /* Utilities.swift */; };
+		EEF4BCEC215416E0005E92E0 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4BCEB215416E0005E92E0 /* Tasks.swift */; };
+		EEF4BCEE21541723005E92E0 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4BCED21541723005E92E0 /* Library.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,9 @@
 		EE65C2C72149638500E8B9A9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EE65C2CE214967F800E8B9A9 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		EE65C2D021496B3200E8B9A9 /* Notes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Notes.rtf; sourceTree = "<group>"; };
+		EEF4BCE9215416B8005E92E0 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		EEF4BCEB215416E0005E92E0 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		EEF4BCED21541723005E92E0 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 			children = (
 				EE65C2C72149638500E8B9A9 /* main.swift */,
 				EE65C2CE214967F800E8B9A9 /* Menu.swift */,
+				EEF4BCE9215416B8005E92E0 /* Utilities.swift */,
+				EEF4BCEB215416E0005E92E0 /* Tasks.swift */,
+				EEF4BCED21541723005E92E0 /* Library.swift */,
 				EE65C2D021496B3200E8B9A9 /* Notes.rtf */,
 			);
 			path = "Task Manager";
@@ -124,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF4BCEC215416E0005E92E0 /* Tasks.swift in Sources */,
+				EEF4BCEA215416B8005E92E0 /* Utilities.swift in Sources */,
+				EEF4BCEE21541723005E92E0 /* Library.swift in Sources */,
 				EE65C2CF214967F800E8B9A9 /* Menu.swift in Sources */,
 				EE65C2C82149638500E8B9A9 /* main.swift in Sources */,
 			);
